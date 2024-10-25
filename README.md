@@ -309,13 +309,6 @@ Beiträge sind herzlich willkommen! Folge diesen Schritten, um zum Projekt beizu
 
 Dieses Projekt ist lizenziert unter der [MIT License](LICENSE).
 
-## Kontakt
-
-Für Fragen, Vorschläge oder Unterstützung kannst du mich gerne kontaktieren:
-
-- **Discord:** CWL-Leiter#8351
-- **E-Mail:** dein.email@example.com
-
 ---
 
 *Viel Spaß mit dem CWL-Bot! 🚀*
