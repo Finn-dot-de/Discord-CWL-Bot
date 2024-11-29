@@ -21,7 +21,7 @@ class CWLAnmeldungModal(Modal):
         )
         self.townhall = TextInput(
             label="Rathaus-Level",
-            placeholder="Dein Rathaus-Level (10-16)",
+            placeholder="Dein Rathaus-Level (10-17)",
             required=True
         )
 
@@ -36,7 +36,7 @@ class CWLAnmeldungModal(Modal):
         # Validierung der Eingaben
         if not validate_townhall(townhall):
             await interaction.response.send_message(
-                "Ungültiger Rathaus-Level. Bitte gib eine Zahl zwischen 10 und 16 ein.", 
+                "Ungültiger Rathaus-Level. Bitte gib eine Zahl zwischen 10 und 17 ein.", 
                 ephemeral=True
             )
             logger.warning(f'Ungültiger Rathaus-Level von {interaction.user}: {townhall}')
